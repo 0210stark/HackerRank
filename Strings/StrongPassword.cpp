@@ -31,6 +31,6 @@ int main()
   ans += check(s, upper_case);
   ans += check(s, special_characters);
   ans = max(ans, 6 - n);
-  printf("%d\n", ans);
+  cout << ans << endl;
   return 0;
 }
