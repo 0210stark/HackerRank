@@ -124,17 +124,17 @@ CMakeCXXCompilerId/fast:
 .PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
-# Target rules for targets named VeryBigSum
+# Target rules for targets named DiagonalDifference
 
 # Build rule for target.
-VeryBigSum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 VeryBigSum
-.PHONY : VeryBigSum
+DiagonalDifference: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DiagonalDifference
+.PHONY : DiagonalDifference
 
 # fast build rule for target.
-VeryBigSum/fast:
-	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/build
-.PHONY : VeryBigSum/fast
+DiagonalDifference/fast:
+	$(MAKE) -f CMakeFiles/DiagonalDifference.dir/build.make CMakeFiles/DiagonalDifference.dir/build
+.PHONY : DiagonalDifference/fast
 
 #=============================================================================
 # Target rules for targets named SimpleArraySum
@@ -150,17 +150,30 @@ SimpleArraySum/fast:
 .PHONY : SimpleArraySum/fast
 
 #=============================================================================
-# Target rules for targets named DiagonalDifference
+# Target rules for targets named VeryBigSum
 
 # Build rule for target.
-DiagonalDifference: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DiagonalDifference
-.PHONY : DiagonalDifference
+VeryBigSum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VeryBigSum
+.PHONY : VeryBigSum
 
 # fast build rule for target.
-DiagonalDifference/fast:
-	$(MAKE) -f CMakeFiles/DiagonalDifference.dir/build.make CMakeFiles/DiagonalDifference.dir/build
-.PHONY : DiagonalDifference/fast
+VeryBigSum/fast:
+	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/build
+.PHONY : VeryBigSum/fast
+
+#=============================================================================
+# Target rules for targets named PlusMinus
+
+# Build rule for target.
+PlusMinus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PlusMinus
+.PHONY : PlusMinus
+
+# fast build rule for target.
+PlusMinus/fast:
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/build
+.PHONY : PlusMinus/fast
 
 #=============================================================================
 # Target rules for targets named CompareTriplets
@@ -221,6 +234,21 @@ DiagonalDifference.s:
 .PHONY : DiagonalDifference.s
 
 # target to build an object file
+PlusMinus.o:
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/PlusMinus.o
+.PHONY : PlusMinus.o
+
+# target to preprocess a source file
+PlusMinus.i:
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/PlusMinus.i
+.PHONY : PlusMinus.i
+
+# target to generate assembly for a file
+PlusMinus.s:
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/PlusMinus.s
+.PHONY : PlusMinus.s
+
+# target to build an object file
 SimpleArraySum.o:
 	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/SimpleArraySum.o
 .PHONY : SimpleArraySum.o
@@ -259,9 +287,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CMakeCXXCompilerId"
-	@echo "... VeryBigSum"
-	@echo "... SimpleArraySum"
 	@echo "... DiagonalDifference"
+	@echo "... SimpleArraySum"
+	@echo "... VeryBigSum"
+	@echo "... PlusMinus"
 	@echo "... CompareTriplets"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.i"
@@ -272,6 +301,9 @@ help:
 	@echo "... DiagonalDifference.o"
 	@echo "... DiagonalDifference.i"
 	@echo "... DiagonalDifference.s"
+	@echo "... PlusMinus.o"
+	@echo "... PlusMinus.i"
+	@echo "... PlusMinus.s"
 	@echo "... SimpleArraySum.o"
 	@echo "... SimpleArraySum.i"
 	@echo "... SimpleArraySum.s"

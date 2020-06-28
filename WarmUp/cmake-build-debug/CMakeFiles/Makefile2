@@ -54,9 +54,10 @@ CMAKE_BINARY_DIR = /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/CMakeCXXCompilerId.dir/all
-all: CMakeFiles/VeryBigSum.dir/all
-all: CMakeFiles/SimpleArraySum.dir/all
 all: CMakeFiles/DiagonalDifference.dir/all
+all: CMakeFiles/SimpleArraySum.dir/all
+all: CMakeFiles/VeryBigSum.dir/all
+all: CMakeFiles/PlusMinus.dir/all
 all: CMakeFiles/CompareTriplets.dir/all
 
 .PHONY : all
@@ -68,9 +69,10 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
-clean: CMakeFiles/VeryBigSum.dir/clean
-clean: CMakeFiles/SimpleArraySum.dir/clean
 clean: CMakeFiles/DiagonalDifference.dir/clean
+clean: CMakeFiles/SimpleArraySum.dir/clean
+clean: CMakeFiles/VeryBigSum.dir/clean
+clean: CMakeFiles/PlusMinus.dir/clean
 clean: CMakeFiles/CompareTriplets.dir/clean
 
 .PHONY : clean
@@ -103,60 +105,6 @@ CMakeFiles/CMakeCXXCompilerId.dir/clean:
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/VeryBigSum.dir
-
-# All Build rule for target.
-CMakeFiles/VeryBigSum.dir/all:
-	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/depend
-	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target VeryBigSum"
-.PHONY : CMakeFiles/VeryBigSum.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/VeryBigSum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/VeryBigSum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/VeryBigSum.dir/rule
-
-# Convenience name for target.
-VeryBigSum: CMakeFiles/VeryBigSum.dir/rule
-
-.PHONY : VeryBigSum
-
-# clean rule for target.
-CMakeFiles/VeryBigSum.dir/clean:
-	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/clean
-.PHONY : CMakeFiles/VeryBigSum.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/SimpleArraySum.dir
-
-# All Build rule for target.
-CMakeFiles/SimpleArraySum.dir/all:
-	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/depend
-	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target SimpleArraySum"
-.PHONY : CMakeFiles/SimpleArraySum.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/SimpleArraySum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SimpleArraySum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/SimpleArraySum.dir/rule
-
-# Convenience name for target.
-SimpleArraySum: CMakeFiles/SimpleArraySum.dir/rule
-
-.PHONY : SimpleArraySum
-
-# clean rule for target.
-CMakeFiles/SimpleArraySum.dir/clean:
-	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/clean
-.PHONY : CMakeFiles/SimpleArraySum.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/DiagonalDifference.dir
 
 # All Build rule for target.
@@ -182,6 +130,87 @@ DiagonalDifference: CMakeFiles/DiagonalDifference.dir/rule
 CMakeFiles/DiagonalDifference.dir/clean:
 	$(MAKE) -f CMakeFiles/DiagonalDifference.dir/build.make CMakeFiles/DiagonalDifference.dir/clean
 .PHONY : CMakeFiles/DiagonalDifference.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SimpleArraySum.dir
+
+# All Build rule for target.
+CMakeFiles/SimpleArraySum.dir/all:
+	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/depend
+	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target SimpleArraySum"
+.PHONY : CMakeFiles/SimpleArraySum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SimpleArraySum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SimpleArraySum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/SimpleArraySum.dir/rule
+
+# Convenience name for target.
+SimpleArraySum: CMakeFiles/SimpleArraySum.dir/rule
+
+.PHONY : SimpleArraySum
+
+# clean rule for target.
+CMakeFiles/SimpleArraySum.dir/clean:
+	$(MAKE) -f CMakeFiles/SimpleArraySum.dir/build.make CMakeFiles/SimpleArraySum.dir/clean
+.PHONY : CMakeFiles/SimpleArraySum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/VeryBigSum.dir
+
+# All Build rule for target.
+CMakeFiles/VeryBigSum.dir/all:
+	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/depend
+	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target VeryBigSum"
+.PHONY : CMakeFiles/VeryBigSum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/VeryBigSum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/VeryBigSum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/VeryBigSum.dir/rule
+
+# Convenience name for target.
+VeryBigSum: CMakeFiles/VeryBigSum.dir/rule
+
+.PHONY : VeryBigSum
+
+# clean rule for target.
+CMakeFiles/VeryBigSum.dir/clean:
+	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/clean
+.PHONY : CMakeFiles/VeryBigSum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PlusMinus.dir
+
+# All Build rule for target.
+CMakeFiles/PlusMinus.dir/all:
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/depend
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target PlusMinus"
+.PHONY : CMakeFiles/PlusMinus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PlusMinus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PlusMinus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PlusMinus.dir/rule
+
+# Convenience name for target.
+PlusMinus: CMakeFiles/PlusMinus.dir/rule
+
+.PHONY : PlusMinus
+
+# clean rule for target.
+CMakeFiles/PlusMinus.dir/clean:
+	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/clean
+.PHONY : CMakeFiles/PlusMinus.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CompareTriplets.dir

@@ -79,8 +79,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="VeryBigSum">
-				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/VeryBigSum" prefix_auto="0" extension_auto="0"/>
+			<Target title="DiagonalDifference">
+				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/DiagonalDifference" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,14 +94,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 VeryBigSum"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DiagonalDifference"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="VeryBigSum/fast">
-				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/VeryBigSum" prefix_auto="0" extension_auto="0"/>
+			<Target title="DiagonalDifference/fast">
+				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/DiagonalDifference" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -115,7 +115,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 VeryBigSum/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DiagonalDifference/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -163,8 +163,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DiagonalDifference">
-				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/DiagonalDifference" prefix_auto="0" extension_auto="0"/>
+			<Target title="VeryBigSum">
+				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/VeryBigSum" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -178,14 +178,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DiagonalDifference"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 VeryBigSum"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DiagonalDifference/fast">
-				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/DiagonalDifference" prefix_auto="0" extension_auto="0"/>
+			<Target title="VeryBigSum/fast">
+				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/VeryBigSum" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -199,7 +199,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DiagonalDifference/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 VeryBigSum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlusMinus">
+				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/PlusMinus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 PlusMinus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlusMinus/fast">
+				<Option output="/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/PlusMinus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 PlusMinus/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -253,6 +295,9 @@
 		</Unit>
 		<Unit filename="/Users/viditshah/Desktop/HackerRank/WarmUp/DiagonalDifference.cpp">
 			<Option target="DiagonalDifference"/>
+		</Unit>
+		<Unit filename="/Users/viditshah/Desktop/HackerRank/WarmUp/PlusMinus.cpp">
+			<Option target="PlusMinus"/>
 		</Unit>
 		<Unit filename="/Users/viditshah/Desktop/HackerRank/WarmUp/SimpleArraySum.cpp">
 			<Option target="SimpleArraySum"/>
