@@ -53,9 +53,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
+  "CMakeFiles/VeryBigSum.dir/DependInfo.cmake"
   "CMakeFiles/DiagonalDifference.dir/DependInfo.cmake"
   "CMakeFiles/SimpleArraySum.dir/DependInfo.cmake"
-  "CMakeFiles/VeryBigSum.dir/DependInfo.cmake"
   "CMakeFiles/PlusMinus.dir/DependInfo.cmake"
+  "CMakeFiles/StairCase.dir/DependInfo.cmake"
   "CMakeFiles/CompareTriplets.dir/DependInfo.cmake"
   )

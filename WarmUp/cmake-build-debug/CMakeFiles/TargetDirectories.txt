@@ -1,8 +1,9 @@
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
+/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/VeryBigSum.dir
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/DiagonalDifference.dir
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/SimpleArraySum.dir
-/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/VeryBigSum.dir
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/PlusMinus.dir
+/Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/StairCase.dir
 /Users/viditshah/Desktop/HackerRank/WarmUp/cmake-build-debug/CMakeFiles/CompareTriplets.dir

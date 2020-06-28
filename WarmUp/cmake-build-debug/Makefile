@@ -124,6 +124,19 @@ CMakeCXXCompilerId/fast:
 .PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
+# Target rules for targets named VeryBigSum
+
+# Build rule for target.
+VeryBigSum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VeryBigSum
+.PHONY : VeryBigSum
+
+# fast build rule for target.
+VeryBigSum/fast:
+	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/build
+.PHONY : VeryBigSum/fast
+
+#=============================================================================
 # Target rules for targets named DiagonalDifference
 
 # Build rule for target.
@@ -150,19 +163,6 @@ SimpleArraySum/fast:
 .PHONY : SimpleArraySum/fast
 
 #=============================================================================
-# Target rules for targets named VeryBigSum
-
-# Build rule for target.
-VeryBigSum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 VeryBigSum
-.PHONY : VeryBigSum
-
-# fast build rule for target.
-VeryBigSum/fast:
-	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/build
-.PHONY : VeryBigSum/fast
-
-#=============================================================================
 # Target rules for targets named PlusMinus
 
 # Build rule for target.
@@ -174,6 +174,19 @@ PlusMinus: cmake_check_build_system
 PlusMinus/fast:
 	$(MAKE) -f CMakeFiles/PlusMinus.dir/build.make CMakeFiles/PlusMinus.dir/build
 .PHONY : PlusMinus/fast
+
+#=============================================================================
+# Target rules for targets named StairCase
+
+# Build rule for target.
+StairCase: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StairCase
+.PHONY : StairCase
+
+# fast build rule for target.
+StairCase/fast:
+	$(MAKE) -f CMakeFiles/StairCase.dir/build.make CMakeFiles/StairCase.dir/build
+.PHONY : StairCase/fast
 
 #=============================================================================
 # Target rules for targets named CompareTriplets
@@ -264,6 +277,21 @@ SimpleArraySum.s:
 .PHONY : SimpleArraySum.s
 
 # target to build an object file
+StairCase.o:
+	$(MAKE) -f CMakeFiles/StairCase.dir/build.make CMakeFiles/StairCase.dir/StairCase.o
+.PHONY : StairCase.o
+
+# target to preprocess a source file
+StairCase.i:
+	$(MAKE) -f CMakeFiles/StairCase.dir/build.make CMakeFiles/StairCase.dir/StairCase.i
+.PHONY : StairCase.i
+
+# target to generate assembly for a file
+StairCase.s:
+	$(MAKE) -f CMakeFiles/StairCase.dir/build.make CMakeFiles/StairCase.dir/StairCase.s
+.PHONY : StairCase.s
+
+# target to build an object file
 VeryBigSum.o:
 	$(MAKE) -f CMakeFiles/VeryBigSum.dir/build.make CMakeFiles/VeryBigSum.dir/VeryBigSum.o
 .PHONY : VeryBigSum.o
@@ -287,10 +315,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CMakeCXXCompilerId"
+	@echo "... VeryBigSum"
 	@echo "... DiagonalDifference"
 	@echo "... SimpleArraySum"
-	@echo "... VeryBigSum"
 	@echo "... PlusMinus"
+	@echo "... StairCase"
 	@echo "... CompareTriplets"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.i"
@@ -307,6 +336,9 @@ help:
 	@echo "... SimpleArraySum.o"
 	@echo "... SimpleArraySum.i"
 	@echo "... SimpleArraySum.s"
+	@echo "... StairCase.o"
+	@echo "... StairCase.i"
+	@echo "... StairCase.s"
 	@echo "... VeryBigSum.o"
 	@echo "... VeryBigSum.i"
 	@echo "... VeryBigSum.s"
